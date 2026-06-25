@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -55,7 +54,7 @@ margin-top:30px;
 border:none;
 border-radius:12px;
 background:#5865F2;
-color:white;
+color: white;
 font-size:1rem;
 font-weight:600;
 cursor:pointer;
@@ -94,8 +93,8 @@ resize:none;
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:15px;
-margin-top:20px;
+gap:8px;
+margin-top:15px;
 }
 
 .links a{
@@ -147,10 +146,6 @@ Aquí encontrarás información sobre registros,
 rangos, whitelist, mods, SPRX y mucho más.
 </p>
 
-<button onclick="siguiente('registro')">
-Comenzar
-</button>
-
 </section>
 
 <!-- REGISTRO -->
@@ -175,10 +170,6 @@ Enviar Registro
 
 </div>
 
-<button onclick="siguiente('rangos')">
-Siguiente
-</button>
-
 </section>
 
 <!-- RANGOS -->
@@ -202,10 +193,6 @@ Siguiente
 
 </div>
 
-<button onclick="siguiente('mods')">
-Siguiente
-</button>
-
 </section>
 
 <!-- MODS -->
@@ -222,10 +209,6 @@ Siguiente
 <a href="#">Tutorial</a>
 
 </div>
-
-<button onclick="siguiente('opiniones')">
-Siguiente
-</button>
 
 </section>
 
@@ -245,10 +228,6 @@ Publicar Opinión
 
 </div>
 
-<button onclick="siguiente('redes')">
-Siguiente
-</button>
-
 </section>
 
 <!-- REDES -->
@@ -265,10 +244,6 @@ Siguiente
 
 </div>
 
-<button onclick="siguiente('creditos')">
-Siguiente
-</button>
-
 </section>
 
 <!-- CRÉDITOS -->
@@ -280,11 +255,11 @@ Siguiente
 <div class="card">
 
 <div class="credit">
-👑 Developer: Tu Nombre
+👑 Developer: RealDany
 </div>
 
 <div class="credit">
-🛠 Helper: Nombre
+🛠 Helper: ZerrDMC 
 </div>
 
 <div class="credit">
@@ -292,7 +267,7 @@ Siguiente
 </div>
 
 <div class="credit">
-🎨 Diseño Web: Nombre
+🎨 Diseño Web: Zv_Shadowboy_vZ
 </div>
 
 <div class="credit">
@@ -301,35 +276,8 @@ Siguiente
 
 </div>
 
-<button onclick="siguiente('intro')">
-Volver al Inicio
-</button>
-
 </section>
 
-<script>
-
-function siguiente(id){
-
-const overlay =
-document.getElementById("overlay");
-
-overlay.style.opacity="1";
-
-setTimeout(()=>{
-
-document.getElementById(id)
-.scrollIntoView({
-behavior:"smooth"
-});
-
-overlay.style.opacity="0";
-
-},2000);
-
-}
-
-</script>
 
 </body>
 </html>
