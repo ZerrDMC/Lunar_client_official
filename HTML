@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -131,7 +130,9 @@ font-size:1.2rem;
 }
 
 </style>
+
 </head>
+
 <body>
 
 <div id="overlay"></div>
@@ -176,10 +177,6 @@ Enviar Registro
 
 </div>
 
-<button onclick="siguiente('rangos')">
-Siguiente
-</button>
-
 </section>
 
 <!-- RANGOS -->
@@ -203,10 +200,6 @@ Siguiente
 
 </div>
 
-<button onclick="siguiente('mods')">
-Siguiente
-</button>
-
 </section>
 
 <!-- MODS -->
@@ -223,10 +216,6 @@ Siguiente
 <a href="#">Tutorial</a>
 
 </div>
-
-<button onclick="siguiente('opiniones')">
-Siguiente
-</button>
 
 </section>
 
@@ -246,10 +235,6 @@ Publicar Opinión
 
 </div>
 
-<button onclick="siguiente('redes')">
-Siguiente
-</button>
-
 </section>
 
 <!-- REDES -->
@@ -266,10 +251,6 @@ Siguiente
 
 </div>
 
-<button onclick="siguiente('creditos')">
-Siguiente
-</button>
-
 </section>
 
 <!-- CRÉDITOS -->
@@ -281,11 +262,11 @@ Siguiente
 <div class="card">
 
 <div class="credit">
-👑 Developer: Tu Nombre
+👑 Developer: RealDany
 </div>
 
 <div class="credit">
-🛠 Helper: Nombre
+🛠 Helper: ZerrDMC
 </div>
 
 <div class="credit">
@@ -293,42 +274,16 @@ Siguiente
 </div>
 
 <div class="credit">
-🎨 Diseño Web: Nombre
+🎨 Diseño Web: Zv_Shadowboy_vZ
 </div>
 
 <div class="credit">
 ❤️ Gracias por utilizar Lunar Client
 </div>
 
-</div>
-
-<button onclick="siguiente('intro')">
-Volver al Inicio
-</button>
-
 </section>
 
 <script>
-
-function siguiente(id){
-
-const overlay =
-document.getElementById("overlay");
-
-overlay.style.opacity="1";
-
-setTimeout(()=>{
-
-document.getElementById(id)
-.scrollIntoView({
-behavior:"smooth"
-});
-
-overlay.style.opacity="0";
-
-},2000);
-
-}
 
 </script>
 
